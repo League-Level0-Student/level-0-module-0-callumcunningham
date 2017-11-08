@@ -5,8 +5,14 @@ public class MyJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+		Robot lauren = new Robot();
+		lauren.setSpeed(10);
+		lauren.penDown();
+		lauren.move(200);
+		lauren.sparkle();
+		
 	
+
 		
 		
 	}
